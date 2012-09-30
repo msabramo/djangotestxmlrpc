@@ -4,17 +4,18 @@ djangotestxmlrpc
 .. image:: https://secure.travis-ci.org/msabramo/djangotestxmlrpc.png?branch=master
    :target: http://travis-ci.org/msabramo/djangotestxmlrpc
 
-Test Django XML-RPC views using the `Django test client
+Test Django `XML-RPC <http://xml-rpc.com/>`_ views using the `Django test
+client
 <https://docs.djangoproject.com/en/dev/topics/testing/#module-django.test.client>`_.
 Because you're using the Django test client, you're not actually sending HTTP
-requests and don't
-need a server running.
+requests and don't need a server running.
+
+This is a slightly modified version of code taken from `this blog post
+<http://www.alittletooquiet.net/blog/2009/11/01/testing-django-xml-rpc-interfaces/>`_
+from Forest Bond.
 
 
-Example usage
--------------
-
-.. code:: python
+Example usage::
 
     from djangotestxmlrpc import DjangoTestClientXMLRPCTransport
 
@@ -22,7 +23,9 @@ Example usage
         ...
 
         def test_list_package(self):
-            pypi = xmlrpclib.ServerProxy("http://localhost/pypi/", transport=DjangoTestClientXMLRPCTransport(self.client))
+            pypi = xmlrpclib.ServerProxy(
+                "http://localhost/pypi/",
+                transport=DjangoTestClientXMLRPCTransport(self.client))
             pypi_hits = pypi.list_packages()
             expected = ['foo']
             self.assertEqual(pypi_hits, expected)
