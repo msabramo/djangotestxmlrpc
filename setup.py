@@ -12,7 +12,7 @@ long_description = long_description.replace('Example usage:\n\n.. code:: python'
 
 setup(
     name='djangotestxmlrpc',
-    version='0.0.0',
+    version='0.0.1',
     description="""Utility classes for testing Django views that speak XML-RPC""",
     long_description=long_description,
     keywords='unittest,testing,Django,XML-RPC',
