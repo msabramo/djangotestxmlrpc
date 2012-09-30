@@ -1,7 +1,8 @@
 """
 Tools for testing Django XML-RPC views using the Django test client
 
-from http://www.alittletooquiet.net/blog/2009/11/01/testing-django-xml-rpc-interfaces/
+This is an extension of code taken from a blog post from Forest Bond at
+http://www.alittletooquiet.net/blog/2009/11/01/testing-django-xml-rpc-interfaces/
 """
 
 try:
