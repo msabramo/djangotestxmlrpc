@@ -6,7 +6,7 @@ djangotestxmlrpc
 
 Test Django `XML-RPC <http://xml-rpc.com/>`_ views using the `Django test
 client
-<https://docs.djangoproject.com/en/dev/topics/testing/#module-django.test.client>`_.
+<https://docs.djangoproject.com/en/1.4/topics/testing/#module-django.test.client>`_.
 Because you're using the Django test client, you're not actually sending HTTP
 requests and don't need a server running.
 
