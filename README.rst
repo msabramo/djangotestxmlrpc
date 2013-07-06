@@ -15,7 +15,9 @@ This is a slightly modified version of code taken from `this blog post
 from Forest Bond.
 
 
-Example usage::
+Example usage:
+
+.. code-block:: python
 
     from djangotestxmlrpc import DjangoTestClientXMLRPCTransport
 
