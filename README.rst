@@ -42,6 +42,7 @@ Supported Python versions
 - PyPy 1.9
 - Python 3.1
 - Python 3.2
+- Python 3.3
 
 or says `tox <http://tox.testrun.org/>`_::
 
@@ -53,6 +54,7 @@ or says `tox <http://tox.testrun.org/>`_::
       pypy: commands succeeded
       py31: commands succeeded
       py32: commands succeeded
+      py33: commands succeeded
       congratulations :)
 
 You also can check the `latest Travis CI results
