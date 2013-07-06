@@ -62,6 +62,12 @@ You also can check the `latest Travis CI results
 Travis doesn't build all of the above platforms.
 
 
+PyPI
+----
+
+https://pypi.python.org/pypi/djangotestxmlrpc
+
+
 Issues
 ------
 
