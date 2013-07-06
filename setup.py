@@ -12,7 +12,7 @@ long_description = open(os.path.join(this_dir, 'README.rst')).read()
 
 setup(
     name='djangotestxmlrpc',
-    version='0.0.1',
+    version='0.0.2',
     description="""Utility classes for testing Django views that speak XML-RPC""",
     long_description=long_description,
     keywords='unittest,testing,Django,XML-RPC',
